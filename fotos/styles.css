@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f2d;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 99%;
+    height: 560px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.card-1 {
+    background-image: url(https://images7.alphacoders.com/121/1214448.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-2 {
+    background-image: url(https://filmdaily.co/wp-content/uploads/2022/03/the-batman-lede-3.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-3 {
+    background-image: url(https://epipoca.com.br/wp-content/uploads/2022/07/the-batman-charada-paul-dano1.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-4 {
+    background-image: url(https://rollingstone.uol.com.br/media/uploads/the-batman-charada-paul-dano-foto-reproducao.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-5 {
+    background-image: url(https://s2.glbimg.com/zYlZbxKkPK-hKo3pi460fM0RL2w=/smart/e.glbimg.com/og/ed/f/original/2022/03/14/thebatman.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-6 {
+    background-image: url(https://www.yankodesign.com/images/design_news/2022/03/original-blueprints-of-batmobile-driven-by-bruce-wayne-released-by-the-artist/The-Batman-Batmobile-by-ASh-Thorp-4.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-7 {
+    background-image: url(https://getyourcomicon.co.uk/wp-content/uploads/2022/02/TheBatman-Alfred-Header.jpg);
+    background-position: center;
+    background-size: cover;
+}.card-8 {
+    background-image: url(https://img.ibxk.com.br/2021/04/20/20092230715545.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cards {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px gray solid;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .5s;
+    font-family: 'Kdam Thmor PRO', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) { 
+    .fotos {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 30px;
+      height: 100%;
+    }
+  
+    .cards {
+      height: 300px;
+    }
+}
